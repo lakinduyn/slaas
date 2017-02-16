@@ -1,0 +1,74 @@
+.thc-holidays,
+.thc-widget-content table,
+.thc-inline-content table {
+	width: 100%;
+}
+
+.thc-widget-content table,
+.thc-inline-content table {
+	line-height: 2;
+	margin-bottom: 10px;
+}
+
+.thc-widget-content .thc-calendar-navigation a,
+.thc-inline-content .thc-calendar-navigation a {
+	background-color: transparent;
+	color: inherit;
+}
+
+.thc-widget-content .thc-highlight,
+.thc-inline-content .thc-highlight {
+	font-weight: bold;
+	text-decoration: underline;
+	/* cursor: default; */
+}
+
+.thc-widget-content .thc-today,
+.thc-inline-contentt .thc-today {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.thc-widget-content tbody td,
+.thc-widget-content thead th,
+.thc-widget-content caption,
+.thc-inline-content tbody td,
+.thc-inline-content thead th,
+.thc-inline-content caption  {
+	text-align: center;
+}
+
+.thc-widget-content .customEvent,
+.thc-inline-content .customEvent {
+	font-weight: bold;
+}
+
+#mva7-thc-events  h1 {
+	margin-bottom: 20px;
+}
+
+#mva7-thc-events .mva7-thc-event h2 {
+	margin-bottom: 10px;
+}
+
+#mva7-thc-events .mva7-thc-event p {
+	margin-bottom: 20px;
+}
+
+/* Theme Compatibility */
+
+/* Twenty Fourteen */
+@media screen and (min-width: 1080px) {
+	.mva7-thc-activetheme-twentyfourteen #mva7-thc-main {
+		padding-left: 222px;
+	}
+}
+
+.mva7-thc-activetheme-twentyfourteen #mva7-thc-main #mva7-thc-events {
+	padding: 20px;
+}
+
+/* Twenty Thirteen */
+.mva7-thc-activetheme-twentythirteen #mva7-thc-main #mva7-thc-events {
+	padding-left: 20px;
+}
+
